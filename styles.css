@@ -174,8 +174,13 @@ footer {
 }
 
 .contenido-caja a {
+    color: white !important;
     text-shadow: 0px 0px 5px red;
     transition: all 500ms;
+}
+
+.contenido-caja a:visited{
+    color: white !important;
 }
 
 .contenido-caja a:hover {
@@ -195,10 +200,6 @@ footer {
 
 }
 
-.contenido-caja :visited {
-    color: white;
-    
-}
 
 
 
