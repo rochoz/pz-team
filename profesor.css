@@ -232,7 +232,8 @@ footer {
 }
 
 .contenido-caja a {
-  text-shadow: 0px 0px 5px red;
+   color: white !important;
+    text-shadow: 0px 0px 8px red;
   transition: all 500ms;
 }
 
@@ -241,9 +242,8 @@ footer {
   text-shadow: 0px 0px 3px white;
 }
 
-.contenido-caja :visited {
-  color: white;
-
+.contenido-caja a:visited{
+    color: white !important;
 }
 
 .location {
