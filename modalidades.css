@@ -1,0 +1,405 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+
+}
+
+header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: black;
+}
+
+/* Barra principal */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Logo */
+#logoheader {
+  width: 110px;
+  margin-left: 20px;
+}
+
+/* Menú */
+#menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0 20px;
+}
+
+/* Links */
+#menu li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  padding: 10px;
+  transition: 0.3s;
+  text-shadow: 0px 0px 5px red;
+}
+
+/* Visitado */
+#menu li a:visited {
+  color: white;
+}
+
+/* Hover */
+#menu li a:hover {
+  color: red;
+  text-shadow: 0px 0px 3px white;
+  transform: scale(1.1, 1.1);
+
+}
+
+
+#logoheader {
+  width: 110px;
+  margin-left: 20px;
+
+}
+
+
+h1 {
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 0px 4px 6px rgb(233, 152, 152);
+  background-image: url(media/programa.jpeg);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-position: 0%;
+}
+
+
+#programas {
+  background-color: rgb(20, 20, 20);
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.programas-contenido {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5%;
+  justify-content: center;
+  margin: 0px auto;
+
+
+}
+
+.programa-card {
+  background-color: #1f0e0e;
+  border-radius: 16px;
+  overflow: hidden;
+  width: 100%;
+  color: white;
+  transition: all 350ms;
+  min-height: 400px;
+}
+
+.programa-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+
+}
+
+
+.programa-info {
+  padding: 35px;
+
+}
+
+.programa-info h3 {
+  font-size: 27px;
+  margin-bottom: 15px;
+
+
+}
+
+.programa-info p {
+  color: lightgray;
+  line-height: 1.6;
+}
+
+
+.programa-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0px 0px 7px rgb(233, 152, 152);
+}
+
+
+
+.card-kids {
+  background-color: #1f0e0e;
+  border-radius: 16px;
+  overflow: hidden;
+  width: 100%;
+  color: white;
+  transition: all 350ms;
+  min-height: 400px;
+  grid-column: span 2;
+}
+
+.card-kids img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+
+}
+
+
+.card-kids h3 {
+  font-size: 27px;
+  margin-bottom: 15px;
+}
+
+.card-kids p {
+  color: lightgray;
+  line-height: 1.6;
+}
+
+.card-kids:hover {
+  transform: translateY(-7px);
+  box-shadow: 0px 0px 7px rgb(233, 152, 152);
+}
+
+
+
+
+/* HORARIOS */
+
+#horarios {
+  background-color: rgb(24, 24, 24);
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+#horarios h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  text-shadow: 0px 0px 4px rgb(233, 152, 152);
+}
+
+.horarios-contenido {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  
+}
+
+.horarios-card:hover {
+  box-shadow: 0px 0px 10px rgb(233, 152, 152);
+  transform: translateY(-7px);
+}
+
+
+.horarios-card {
+  background-color: #1f0e0e;
+  border-radius: 16px;
+  overflow: hidden;
+  width: 90%;
+  color: white;
+  transition: all 350ms;
+  height: 350px;
+  padding: 20px;
+  
+ justify-self: center; /*ESTO LAS CENTRA EN SU COLUMNA */
+}
+
+
+.fila-horario {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  background-color: black;
+  border: 1px solid #240c0c;
+  border-radius: 14px;
+  padding: 14px 20px;
+  margin-bottom: 14px;
+  margin-top: 15px;
+  color: white;
+}
+
+.fila-horario span {
+  white-space: nowrap;
+
+}
+
+.dias {
+  font-weight: 600;
+}
+
+.hora {
+  color: #cc2f2f;
+  font-weight: bold;
+}
+
+.giclass {
+  background-color: rgb(78, 51, 51);
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  color: gray;
+
+}
+
+.fila-horario:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgb(233, 152, 152);
+  transition: all 300ms;
+}
+
+.horarios-card h3 {
+  font-size: 25px;
+  text-shadow: 0px 1px 5px black;
+}
+
+
+.notas-horarios {
+
+  background-color: #1f0e0e;
+  border-radius: 16px;
+  overflow: hidden;
+  width: 90%;
+  color: white;
+  transition: all 350ms;
+  grid-column: span 2;
+  padding: 20px;
+  justify-self: center;
+}
+
+.notas-horarios:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 0px 10px rgb(233, 152, 152);
+}
+
+.contenido-notas h3 {
+  font-size: 25px;
+  padding: 10px;
+}
+
+
+
+.lista-principiantes {
+  list-style: none;
+  padding: 10px;
+}
+
+
+.lista-principiantes li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.lista-principiantes li::before {
+  content: "💡";
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#pie_pagina {
+  background-color: black;
+  width: 100%;
+  color: white;
+
+  align-items: center;
+
+}
+
+footer {
+  min-height: 200px;
+  background-color: black;
+}
+
+#img-footer {
+  margin-left: 85px;
+  padding: 0px !important;
+
+}
+
+#pie_pagina {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#pie_pagina .pies-pagina {
+
+  padding: 20px;
+  min-height: 200px;
+  margin: 5px;
+
+  flex: 1;
+  /* TODAS pesan igual */
+  display: flex;
+  flex-direction: column;
+  /* contenido en vertical */
+}
+
+.contenido-caja {
+  padding: 10px;
+  color: white;
+
+}
+
+.contenido-caja a {
+  text-shadow: 0px 0px 5px red;
+  transition: all 500ms;
+}
+
+.contenido-caja a:hover {
+  color: red;
+  text-shadow: 0px 0px 3px white;
+}
+
+.contenido-caja :visited {
+  color: white;
+
+}
+
+.location {
+  width: 300px;
+  height: 170px;
+}
+
+#derechos {
+  text-align: center;
+  background-color: black;
+  color: white;
+
+  align-items: center;
+  padding: 50px;
+}
