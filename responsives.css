@@ -1,0 +1,346 @@
+/* HEADER */
+@media (max-width:1250px) {
+    #navbar {
+        width: 100%;
+        height: auto;
+        background-position: center;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        position: static;
+    }
+
+    #navbar {
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        padding: 10px 0;
+    }
+
+    #logoheader {
+        width: 150px;
+        margin: 0;
+    }
+
+    #menu {
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+
+
+@media (max-width:550px) {
+    #logoheader {
+        width: 150px;
+
+    }
+
+    #menu {
+        display: block;
+        margin: 0px auto;
+    }
+
+
+    #parrafo {
+        margin-top: 10px;
+    }
+}
+
+/* FOOTER */
+@media (max-width:1250px) {
+    #pie_pagina .pies-pagina {
+        width: 24%;
+    }
+
+    #img-footer {
+        margin-left: 27%;
+    }
+}
+
+@media (max-width: 950px) {
+    #img-footer {
+        margin-left: 22%;
+    }
+
+    .location {
+        width: 260px;
+    }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+    #pie_pagina {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #pie_pagina .pies-pagina {
+        width: 100%;
+        max-width: 320px;
+        margin: 10px 0;
+        align-items: center;
+        /* CLAVE */
+    }
+
+    #img-footer {
+        display: block;
+        margin: 0 auto 10px auto;
+        width: 150px;
+    }
+}
+
+
+/* INICIO */
+
+@media (max-width:1250px) {
+    #fondo {
+        background-position: center;
+    }
+}
+
+@media (max-width:850px) {
+    #parrafo {
+        font-size: 23px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:800px) {
+    #parrafo {
+        font-size: 25px;
+
+    }
+
+    .contenido-caja a {
+        font-size: 15px;
+    }
+
+    #menu {
+        gap: 10px;
+    }
+
+    #menu li a {
+        font-size: 19;
+    }
+}
+
+
+
+
+/* SOBRE NOSOTOS*/
+@media (max-width:1250px) {
+    #img-bio {
+        width: 35%;
+        height: 80%;
+        margin-top: 10%;
+
+    }
+
+    .caja-valores {
+        width: 15%;
+        margin: 1%;
+    }
+
+    .caja-valores p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:950px) {
+    .pbio {
+        font-size: 18px;
+    }
+
+    .caja-valores {
+        height: 210px;
+    }
+
+    .caja-valores p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:850px) {
+    #biografia {
+        display: block;
+    }
+
+    #img-bio {
+        margin-left: 15%;
+        height: auto;
+        width: 70%;
+
+    }
+
+    .pbio {
+        width: 90%;
+        padding: 0px;
+        padding-right: 5%;
+        padding-left: 5%;
+        margin: 40px 0px 70px 0px;
+        font-size: 20px;
+    }
+
+
+    #contenido-valores {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .caja-valores {
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .caja-valores p {
+        font-size: 15px;
+    }
+}
+
+/* PROFESORES */
+
+@media (max-width:1250px) {
+    .info-profesores h3 {
+        font-size: 24px;
+    }
+
+    .info-profesores p {
+        font-size: 14px;
+    }
+
+    #profesores-contenedor {
+        width: 97%;
+    }
+}
+
+@media (max-width:950px) {
+    #profesores-contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10%;
+    }
+
+    .profesores-card{
+        width: 85%;
+        height: auto;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .profesores-card img{
+        width: 40%;
+        height: 200px;
+    }
+
+    .info-profesores h3{
+        font-size: 21px;
+    }
+    .info-profesores p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:800px){
+    .info-profesores h3{
+        font-size: 16px;
+    }
+    .info-profesores p {
+        font-size: 11px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MODALIDADES */
+@media (max-width:950px) {
+    .programa-info h3{
+        font-size: 21px;
+    }
+
+
+    .programa-info p{
+        font-size:15px;
+    }
+
+    .fila-horario span {
+        font-size: 11px;
+    }
+}
+
+@media (max-width:750px){
+    .programas-contenido{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    .programa-card{
+        margin: 20px 0px 20px 0px;
+    }
+
+    .card-kids{
+        margin: 20px 0px 20px 0px;
+    }
+
+
+
+
+    .horarios-contenido{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .horarios-card{
+        height:auto;
+    }
+
+}
