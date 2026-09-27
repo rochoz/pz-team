@@ -1,195 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PZ TEAM/ aprendé JIu Jitsu y Defensa personal en posadas</title>
-    <link rel="icon" href="media/pzlogo.png">
-    <link rel="stylesheet" href="modalidades.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600&display=swap">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10100f">
+  <meta name="description" content="Conocé las modalidades y horarios de Brazilian Jiu-Jitsu para adultos y niños en PZ Team, Posadas.">
+  <title>Clases y horarios — PZ Team</title>
+  <link rel="icon" href="media/pzlogo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="interactions.css">
+  <link rel="stylesheet" href="modalidades.css">
 </head>
-
 <body>
-    <div id="todo">
-        <header>
-            <img src="media/pzlogo.png" alt="">
-            <nav id="navbar">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="PZ Team, inicio"><img src="media/pzlogo.png" alt="PZ Team"><span>PZ <b>TEAM</b></span></a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-navigation"><span></span><span></span><span></span></button>
+    <nav class="main-nav" id="main-navigation" aria-label="Navegación principal"><a href="index.html#equipo">El dojo</a><a href="index.html#disciplinas">Disciplinas</a><a href="index.html#profesores">Profesores</a><a href="#horarios" aria-current="page">Horarios</a></nav>
+    <a class="nav-cta" href="https://wa.me/5493764699503?text=Hola%20quiero%20informaci%C3%B3n%20sobre%20las%20clases." target="_blank" rel="noopener">Consultar clases <span>↗</span></a>
+  </header>
+  <main>
+    <section class="program-hero"><img src="media/programa.jpeg" alt=""><div class="program-hero-shade"></div><div class="program-hero-copy"><p class="eyebrow"><span class="live-dot"></span> PZ TEAM · POSADAS</p><h1>UN TATAMI.<br><em>TU PRÓXIMO PASO.</em></h1><p>Elegí cómo entrenar. Hay lugar para vos, tengas o no experiencia.</p><a class="button button-red" href="#horarios">Encontrá tu horario <span>↓</span></a></div><span class="program-index">CLASES &amp; HORARIOS / 2026</span></section>
 
-                <a href="index.html">Inicio</a>
-                <a href="index.html">Nosotros</a>
-                <a href="index.html">Profesores</a>
-                <a href="#top">Modalidades</a>
+    <section class="programs section-wrap" id="programas"><div class="section-kicker">01 / LAS MODALIDADES</div><div class="section-heading"><h2>TRES FORMAS<br><span>DE CRECER.</span></h2><p>Aprendé, practicá y encontrá tu ritmo en el tatami.</p></div><div class="program-grid">
+      <article class="program-card"><div class="program-photo"><img src="media/kimono.jpeg" alt="Jiu-Jitsu tradicional con kimono"><span>01 / GI</span></div><div class="program-info"><h3>JIU-JITSU CON KIMONO</h3><p>La modalidad tradicional del Jiu-Jitsu, enfocada en técnica, control y estrategia utilizando el kimono.</p></div></article>
+      <article class="program-card"><div class="program-photo"><img src="media/nogi.jpeg" alt="Jiu-Jitsu sin kimono"><span>02 / NO-GI</span></div><div class="program-info"><h3>JIU-JITSU SIN KIMONO</h3><p>Una modalidad dinámica y atlética, enfocada en velocidad y control corporal.</p></div></article>
+      <article class="program-card"><div class="program-photo"><img src="media/kids.jpeg" alt="Clase de Jiu-Jitsu para niños"><span>03 / KIDS</span></div><div class="program-info"><h3>JIU-JITSU KIDS</h3><p>Clases para niños que trabajan disciplina, respeto y desarrollo físico en un ambiente seguro.</p></div></article>
+    </div></section>
 
-            </nav>
-        </header>
+    <section class="schedule-section" id="horarios"><div class="section-wrap"><div class="section-kicker">02 / ORGANIZÁ TU SEMANA</div><div class="section-heading"><h2>HORARIOS<br><span>DE CLASES.</span></h2><p>Consultanos por WhatsApp si querés saber más antes de venir.</p></div><div class="schedule-grid">
+      <article class="schedule-card"><div class="schedule-title"><span>ADULTOS</span><h3>JIU-JITSU</h3></div><div class="schedule-row"><div><b>Lunes a viernes</b><small>Con kimono</small></div><strong>20:00 <i>HS</i></strong><span class="schedule-tag">GI</span></div><div class="schedule-row"><div><b>Martes y jueves</b><small>Sin kimono</small></div><strong>14:00 <i>HS</i></strong><span class="schedule-tag">NO-GI</span></div><div class="schedule-row"><div><b>Sábado</b><small>Libre</small></div><strong>15:00 <i>HS</i></strong><span class="schedule-tag">LIBRE</span></div></article>
+      <article class="schedule-card kids-schedule"><div class="schedule-title"><span>NIÑOS</span><h3>JIU-JITSU KIDS</h3></div><div class="schedule-row"><div><b>Lunes, miércoles<br>y viernes</b><small>Con kimono</small></div><strong>19:00 <i>HS</i></strong><span class="schedule-tag">GI</span></div><div class="kids-note"><span>UN BUEN COMIENZO</span><p>Un espacio para aprender y ganar confianza, acompañado por el equipo del dojo.</p></div></article>
+    </div><aside class="beginner-note"><span class="note-icon">↗</span><div><b>¿Primera vez en el tatami?</b><p>Podés empezar sin experiencia previa y venir sin kimono, con ropa deportiva.</p></div><a class="arrow-link" href="https://wa.me/5493764699503?text=Hola%2C%20quiero%20consultar%20por%20una%20clase%20de%20Jiu-Jitsu." target="_blank" rel="noopener">Consultanos <span>⟶</span></a></aside></div></section>
 
-        <main>
-            <h1><span>Programas de Entrenamiento</span></h1>
-            <section id="programas">
-                <div class="programas-contenido">
-
-                    <article class="programa-card">
-                        <img src="media/kimono.jpeg" alt="Jiu Jitsu Gi">
-                        <div class="programa-info">
-                            <h3>Jiu-Jitsu Con Kimono (Gi)</h3>
-
-                            <p>
-                                La modalidad tradicional del Jiu Jitsu, enfocada en técnica,
-                                control y estrategia utilizando el kimono.
-                            </p>
-                        </div>
-
-                    </article>
-
-                    <article class="programa-card">
-                        <img src="media/nogi.jpeg" alt="Jiu Jitsu No Gi">
-                        <div class="programa-info">
-                            <h3>Jiu-Jitsu Sin Kimono (No Gi)</h3>
-
-                            <p>
-                                Modalidad más dinámica y atlética, entrenando sin kimono,
-                                enfocada en velocidad y control corporal.
-                            </p>
-                        </div>
-
-
-                    </article>
-                    <article class="programa-card card-kids">
-                        <img src="media/kids.jpeg">
-                        <div class="programa-info">
-                            <h3>Jiu-Jitsu Kids</h3>
-                           
-                            <p>
-                                Clases para niños enfocadas en disciplina, respeto y desarrollo físico en un ambiente
-                                seguro.
-                            </p>
-                            
-
-                        </div>
-
-                    </article>
-
-
-                </div>
-
-            </section>
-            <section id="horarios">
-                <h2>Horarios de Clases</h2>
-                <div class="horarios-contenido">
-                    <article class="horarios-card">
-                        <h3> Jiu Jitsu Adultos</h3>
-                        <div class="fila-horario">
-                            <span class="dias">Lunes a Viernes</span>
-                            <span class="hora">20:00 hs</span>
-                            <span class="giclass">Con Kimono</span>
-                        </div>
-                        <div class="fila-horario">
-                            <span class="dias">Martes y jueves</span>
-                            <span class="hora">14:00 hs</span>
-                            <span class="giclass">Sin kimono</span>
-                        </div>
-                        <div class="fila-horario">
-                            <span class="dias">Sábado</span>
-                            <span class="hora">15:00 hs</span>
-                            <span class="giclass">Libre</span>
-                        </div>
-                    </article>
-                    <article class="horarios-card">
-                        <h3>Jiu Jitsu Kids</h3>
-                        <div class="fila-horario">
-                            <span class="dias">Lunes, Miércoles y Viernes</span>
-                            <span class="hora">19:00 hs</span>
-                            <span class="giclass">Con Kimono</span>
-                        </div>
-
-                    </article>
-
-                    <article class="notas-horarios">
-                        <div class="contenido-notas">
-                            <h3>Notas para Principiantes</h3>
-                            <ul class="lista-principiantes">
-                                <li>
-                                    Podés empezar sin experiencia previa
-                                </li>
-                                <li>
-                                    Podés venir sin kimono, con ropa deportiva
-                                </li>
-                            </ul>
-                        </div>
-
-                    </article>
-
-
-
-                </div>
-            </section>
-
-            <section class="cta">
-                <h2>¿Listo para empezar?</h2>
-                <p>Escribinos y probá tu primera clase</p>
-
-                <a href="https://wa.me/5493764699503?text=Hola%20quiero%20información%20sobre%20las%20clases."
-                    class="cta-btn">
-                    Hablar por WhatsApp
-                </a>
-            </section>
-        </main>
-
-        <footer>
-            <div id="footer-container">
-                <div class="box-footer">
-                    <img id="img-footer" class="contenido-caja" width="100px" src="media/pzlogo.png" alt="">
-
-
-                    <p>
-                        Brazilian Jiu-Jitsu & Defensa Personal
-                    </p>
-                </div>
-
-                <div class="box-footer">
-                    <h2>SEDE</h2>
-
-                    <iframe class="location"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255.76528437264184!2d-55.99225161460687!3d-27.407327213810923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457bd1017467aa1%3A0x478730ab1dcbd97f!2sC.%20los%20Girasoles%20%26%20C.%20Las%20Nutrias%2C%20Misiones!5e0!3m2!1ses-419!2sar!4v1771017355631!5m2!1ses-419!2sar"
-                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                </div>
-
-                <div class="box-footer">
-                    <h2>Contacto</h2>
-                    <p>
-                        <img src="media/wpp.jpg" width="16px" alt="">
-                        <a href="https://wa.me/5493764699503?text=Hola%20quiero%20información%20sobre%20las%20clases.">+54
-                            9 3764 69-9503</a>
-                        <br>
-                        <br>
-                        <img src="media/instagram.png" width="16px" alt="">
-                        <a href="https://www.instagram.com/direct/t/17843444652053634/">@PosadasJiuJitsuHouse</a>
-                    </p>
-
-                </div>
-            </div>
-            <div id="derechos">
-                <p>
-                    &copy; 2026 PZ-Team - Todos los Derechos Reservados
-                </p>
-                <p>
-                    Diseñado y Desarrollado por Santiago Gimenez.
-                </p>
-            </div>
-
-
-        </footer>
-
-
-
-
-
-
-    </div>
-
+    <section class="schedule-cta"><img src="media/programas.jpeg" alt=""><div class="schedule-cta-shade"></div><div><span class="section-kicker">TU LUGAR ESTÁ EN EL TATAMI</span><h2>EMPEZÁ<br><span>CUANDO QUIERAS.</span></h2><a class="button button-red" href="https://wa.me/5493764699503?text=Hola%20quiero%20informaci%C3%B3n%20sobre%20las%20clases." target="_blank" rel="noopener">Escribinos por WhatsApp <span>↗</span></a></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="index.html"><img src="media/pzlogo.png" alt=""><span>PZ <b>TEAM</b></span></a><p>Brazilian Jiu-Jitsu &amp; Defensa Personal<br>Posadas, Misiones</p><div class="footer-links"><a href="index.html#ubicacion">Ubicación</a><a href="https://www.instagram.com/direct/t/17843444652053634/" target="_blank" rel="noopener">Instagram ↗</a><a href="https://wa.me/5493764699503?text=Hola%20quiero%20informaci%C3%B3n%20sobre%20las%20clases." target="_blank" rel="noopener">WhatsApp ↗</a></div><small>© 2026 PZ-Team · Todos los derechos reservados · Diseñado y desarrollado por Santiago Gimenez</small></footer>
+  <script src="script.js" defer></script>
 </body>
-
 </html>

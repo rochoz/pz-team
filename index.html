@@ -1,218 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=0">
-    <title>PZ TEAM/ aprendé JIu Jitsu y Defensa personal en posadas</title>
-    <link rel="icon" href="media/pzlogo.png">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600&display=swap"
-        rel="stylesheet">
-    <!-- <link rel="stylesheet" href="responsives.css"> -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10100f">
+  <meta name="description" content="PZ Team: Brazilian Jiu-Jitsu y defensa personal en Posadas. Clases para adultos y niños, Gi y No-Gi.">
+  <title>PZ Team — Brazilian Jiu-Jitsu en Posadas</title>
+  <link rel="icon" href="media/pzlogo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="interactions.css">
 </head>
-
 <body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="PZ Team, inicio"><img src="media/pzlogo.png" alt="PZ Team"><span>PZ <b>TEAM</b></span></a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-navigation"><span></span><span></span><span></span></button>
+    <nav class="main-nav" id="main-navigation" aria-label="Navegación principal">
+      <a href="#equipo">El dojo</a><a href="#disciplinas">Disciplinas</a><a href="#profesores">Profesores</a><a href="modalidades.html">Horarios</a>
+    </nav>
+    <a class="nav-cta" href="https://wa.me/5493764699503?text=Hola%20quiero%20informaci%C3%B3n%20sobre%20las%20clases." target="_blank" rel="noopener">Consultar clases <span>↗</span></a>
+  </header>
 
-    <header>
-        <img src="media/pzlogo.png" alt="">
-        <nav id="navbar">
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-image" role="img" aria-label="Entrenamiento y equipo de PZ Team"></div>
+      <div class="hero-grain"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="live-dot"></span> BRAZILIAN JIU-JITSU · POSADAS</p>
+        <h1>FORJÁ TU<br><em>CAMINO.</em></h1>
+        <p class="hero-copy">Técnica, disciplina y equipo. Un lugar para empezar desde cero y superarte en cada entrenamiento.</p>
+        <div class="hero-actions"><a class="button button-red" href="https://wa.me/5493764699503?text=Hola%20quiero%20informaci%C3%B3n%20sobre%20las%20clases." target="_blank" rel="noopener">Probá una clase gratis <span>↗</span></a><a class="text-link" href="modalidades.html">Ver clases y horarios <span>↓</span></a></div>
+      </div>
+      <div class="hero-index"><span>01</span><i></i> DISCIPLINA · TÉCNICA · COMUNIDAD</div>
+      <div class="hero-stamp">PZ<br><small>TEAM</small></div>
+    </section>
 
-            <a href="#top">Inicio</a>
-            <a href="#about">Nosotros</a>
-            <a href="#profesores">Profesores</a>
-            <a href="modalidades.html">Modalidades</a>
+    <section class="intro section-wrap" id="equipo">
+      <div class="section-kicker">01 / EL DOJO</div>
+      <div class="intro-layout">
+        <div><h2>UN EQUIPO.<br><span>UN MISMO TATAMI.</span></h2></div>
+        <div class="intro-copy"><p>Fundado en 2023, PZ Team es una academia de Brazilian Jiu-Jitsu en Posadas, creada para difundir este arte marcial y ofrecer un espacio de entrenamiento serio e inclusivo.</p><p>Entrenamos con disciplina y respeto, combinando técnica y preparación física en un ambiente donde principiantes y avanzados pueden crecer a su ritmo.</p><a class="arrow-link" href="modalidades.html">Encontrá tu clase <span>⟶</span></a></div>
+      </div>
+      <div class="values-strip"><div><b>01</b><span>Disciplina en cada entrenamiento</span></div><div><b>02</b><span>Respeto dentro y fuera del tatami</span></div><div><b>03</b><span>Superación a tu propio ritmo</span></div><div><b>04</b><span>Una comunidad que crece unida</span></div></div>
+    </section>
 
-        </nav>
-    </header>
-
-    <main>
-        <div class="hero">
-            <div class="hero-content">
-                <h1>Brazilian Jiu-Jitsu en Posadas</h1>
-                <p>Ofrecemos clases para todos los niveles, enfocadas en la técnica, la defensa personal y el desarrollo
-                    físico y mental.</p>
-                <a href="https://wa.me/5493764699503?text=Hola%20quiero%20información%20sobre%20las%20clases."
-                 class="hero-btn">Probar clase gratis</a>
-            </div>
+    <section class="disciplines" id="disciplinas">
+      <div class="section-wrap"><div class="section-kicker">02 / ENCONTRÁ TU CAMINO</div><div class="section-heading"><h2>ENTRENÁ A<br><span>TU MANERA.</span></h2><p>Distintas formas de aprender. La misma pasión por el Jiu-Jitsu.</p></div>
+        <div class="discipline-grid">
+          <a class="discipline-card gi" href="modalidades.html#horarios"><img src="media/kimono.jpeg" alt="Entrenamiento de Jiu-Jitsu con kimono"><div class="card-overlay"></div><span class="card-number">01 / GI</span><div class="discipline-info"><h3>CON KIMONO</h3><p>Técnica, control y estrategia en la modalidad tradicional.</p><span class="card-arrow">↗</span></div></a>
+          <a class="discipline-card nogi" href="modalidades.html#horarios"><img src="media/nogi.jpeg" alt="Entrenamiento de Jiu-Jitsu sin kimono"><div class="card-overlay"></div><span class="card-number">02 / NO-GI</span><div class="discipline-info"><h3>SIN KIMONO</h3><p>Un juego dinámico de velocidad y control corporal.</p><span class="card-arrow">↗</span></div></a>
+          <a class="discipline-card kids" href="modalidades.html#horarios"><img src="media/kids.jpeg" alt="Clase de Jiu-Jitsu para niños"><div class="card-overlay"></div><span class="card-number">03 / KIDS</span><div class="discipline-info"><h3>JIU-JITSU KIDS</h3><p>Disciplina, respeto y desarrollo en un entorno seguro.</p><span class="card-arrow">↗</span></div></a>
         </div>
-        <section id="about">
-            <div class="about-container">
-                <div class="about-text">
-                    <h2>Sobre el Dojo</h2>
-                    <p>
-                        Fundado en 2023, PZ Team es una academia de Brazilian Jiu-Jitsu en Posadas que nace con el
-                        objetivo de difundir este arte marcial y brindar un espacio de entrenamiento serio e inclusivo.
-                    </p>
-                    <p>
-                        Nos enfocamos en la disciplina, el respeto y el crecimiento personal, combinando técnica y
-                        acondicionamiento físico en un ambiente donde tanto principiantes como avanzados pueden
-                        desarrollarse a su propio ritmo.
-                    </p>
-                    <a href="https://wa.me/5493764699503?text=Hola%20quiero%20información%20sobre%20las%20clases."
-                     class="about-btn">Empezar ahora</a>
-                </div>
-                <div class="about-img">
-                    <img src="media/imgbio.jpeg" alt="">
-                </div>
-            </div>
+        <div class="schedule-hint"><span>¿Querés conocer los días y horarios?</span><a class="arrow-link" href="modalidades.html#horarios">Ver horarios completos <span>⟶</span></a></div>
+      </div>
+    </section>
 
-            <div class="values">
+    <section class="coaches section-wrap" id="profesores">
+      <div class="section-kicker">03 / QUIÉNES TE ACOMPAÑAN</div><div class="section-heading"><h2>EXPERIENCIA<br><span>EN EL TATAMI.</span></h2><p>Enseñanza cercana, técnica y enfocada en el crecimiento de cada alumno.</p></div>
+      <div class="coach-grid">
+        <article class="coach-card"><div class="coach-photo"><img src="media/pablo.png" alt="Pablo Ricardo Zylberman, fundador y profesor de PZ Team"><span class="belt">CINTURÓN NEGRO</span></div><div class="coach-caption"><div><span class="coach-role">FUNDADOR · PROFESOR PRINCIPAL</span><h3>Pablo Ricardo<br>Zylberman</h3></div><span class="coach-mark">PZ</span></div><p>Fundador y profesor principal. Campeón argentino, con una trayectoria dedicada a la competencia y la enseñanza.</p></article>
+        <article class="coach-card"><div class="coach-photo"><img src="media/fernanda.jpeg" alt="Maria Fernanda Butiuk, cofundadora y profesora de Jiu-Jitsu Kids"><span class="belt">CINTURÓN MARRÓN</span></div><div class="coach-caption"><div><span class="coach-role">CO-FUNDADORA · PROGRAMA KIDS</span><h3>Maria Fernanda<br>Butiuk</h3></div><span class="coach-mark">PZ</span></div><p>Campeona argentina y brasilera. Lidera Jiu-Jitsu Kids con una enseñanza cercana que impulsa confianza y valores.</p></article>
+      </div>
+    </section>
 
-                <div class="value-card">
-                    <span>🥋</span>
-                    <h3>Disciplina</h3>
-                    <p>Constancia y compromiso en cada entrenamiento.</p>
-                </div>
+    <section class="visual-band"><img src="media/imgbio2.jpg" alt="El equipo PZ Team reunido en el dojo"><div class="visual-shade"></div><div class="visual-caption"><span>FUERZA EN EL ESFUERZO.</span><strong>CRECEMOS<br>JUNTOS.</strong></div><span class="visual-tag">PZ TEAM · POSADAS, MISIONES</span></section>
 
-                <div class="value-card">
-                    <span>🤝</span>
-                    <h3>Respeto</h3>
-                    <p>Un ambiente sano y de compañerismo.</p>
-                </div>
-
-                <div class="value-card">
-                    <span>🔥</span>
-                    <h3>Superación</h3>
-                    <p>Mejorar cada día dentro y fuera del tatami.</p>
-                </div>
-
-                <div class="value-card">
-                    <span>👥</span>
-                    <h3>Comunidad</h3>
-                    <p>Un equipo que crece unido.</p>
-                </div>
-
-            </div>
-
-        </section>
-
-        <section id="profesores" class="profesores">
-
-            <h2>Profesores</h2>
-
-            <div class="profesores-container">
-
-                <div class="prof-card">
-                    <img src="media/pablo.png" alt="Profesor Pablo">
-                    <h3>Pablo Ricardo Zylberman</h3>
-                    <span>Cinturón Negro</span>
-                    <p>Fundador y profesor principal de PZ Team y campeón argentino. Con una trayectoria marcada por la
-                        competencia y la enseñanza, lidera la academia con un enfoque técnico, disciplinado y orientado
-                        al crecimiento integral de cada alumno.</p>
-                </div>
-
-                <div class="prof-card">
-                    <img src="media/fernanda.jpeg" alt="Profesora Fernanda">
-                    <h3>Maria Fernanda Butiuk</h3>
-                    <span>Cinturón Marrón</span>
-                    <p>Co-fundadora de PZ Team y campeona argentina y brasilera. Lidera el programa de Jiu Jitsu Kids,
-                        combinando alto nivel competitivo con una enseñanza cercana, enfocada en el desarrollo, la
-                        confianza y los valores de cada alumno.</p>
-                </div>
-
-
-            </div>
-
-        </section>
-
-        <section class="modalidades">
-
-            <h2>Modalidades</h2>
-            <p>Elegí cómo querés entrenar</p>
-
-            <div class="modalidades-container">
-
-                <div class="card">
-                    <h3>Gi</h3>
-                    <p>Entrenamiento tradicional con kimono.</p>
-                </div>
-
-                <div class="card">
-                    <h3>No-Gi</h3>
-                    <p>Modalidad dinámica sin kimono.</p>
-                </div>
-
-                <div class="card">
-                    <h3>Kids</h3>
-                    <p>Clases para niños.</p>
-                </div>
-
-            </div>
-
-            <a href="modalidades.html" class="modalidades-btn">
-                Ver horarios
-            </a>
-
-        </section>
-
-        <section class="cta">
-
-            <h2>Empezá hoy</h2>
-            <p>Sumate a nuestras clases y probá una clase sin compromiso.</p>
-
-            <a href="https://wa.me/5493764699503?text=Hola%20quiero%20información%20sobre%20las%20clases."
-                class="cta-btn">
-                Escribinos por WhatsApp
-            </a>
-
-        </section>
-    </main>
-
-    <footer>
-        <div id="footer-container">
-            <div class="box-footer">
-                <img id="img-footer" class="contenido-caja" width="100px" src="media/pzlogo.png" alt="">
-
-
-                <p>
-                    Brazilian Jiu-Jitsu & Defensa Personal
-                </p>
-            </div>
-
-            <div class="box-footer">
-                <h2>SEDE</h2>
-
-                <iframe class="location"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255.76528437264184!2d-55.99225161460687!3d-27.407327213810923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457bd1017467aa1%3A0x478730ab1dcbd97f!2sC.%20los%20Girasoles%20%26%20C.%20Las%20Nutrias%2C%20Misiones!5e0!3m2!1ses-419!2sar!4v1771017355631!5m2!1ses-419!2sar"
-                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-            </div>
-
-            <div class="box-footer">
-                <h2>Contacto</h2>
-                <p>
-                    <img src="media/wpp.jpg" width="16px" alt="">
-                    <a href="https://wa.me/5493764699503?text=Hola%20quiero%20información%20sobre%20las%20clases.">+54
-                        9 3764 69-9503</a>
-                    <br>
-                    <br>
-                    <img src="media/instagram.png" width="16px" alt="">
-                    <a href="https://www.instagram.com/direct/t/17843444652053634/">@PosadasJiuJitsuHouse</a>
-                </p>
-
-            </div>
-        </div>
-        <div id="derechos">
-            <p>
-                &copy; 2026 PZ-Team - Todos los Derechos Reservados
-            </p>
-            <p>
-                Diseñado y Desarrollado por Santiago Gimenez.
-            </p>
-        </div>
-
-
-    </footer>
-
-
-
-
-
-
-    
-
+    <section class="visit section-wrap" id="ubicacion"><div class="section-kicker">04 / ENCONTRANOS</div><div class="visit-layout"><div><h2>EL PRÓXIMO<br><span>ROUND EMPIEZA ACÁ.</span></h2><p class="visit-copy">Vení a conocer el dojo y consultanos qué clase se adapta mejor a vos.</p><div class="contact-lines"><a href="https://wa.me/5493764699503?text=Hola%20quiero%20informaci%C3%B3n%20sobre%20las%20clases." target="_blank" rel="noopener"><span>WHATSAPP</span>+54 9 3764 69-9503 <b>↗</b></a><a href="https://www.instagram.com/direct/t/17843444652053634/" target="_blank" rel="noopener"><span>INSTAGRAM</span>@PosadasJiuJitsuHouse <b>↗</b></a><div><span>DOJO</span>Los Girasoles &amp; Las Nutrias, Posadas</div></div><a class="button button-red" href="https://wa.me/5493764699503?text=Hola%20quiero%20informaci%C3%B3n%20sobre%20las%20clases." target="_blank" rel="noopener">Escribinos por WhatsApp <span>↗</span></a></div><div class="map-frame"><iframe title="Ubicación de PZ Team en Posadas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255.76528437264184!2d-55.99225161460687!3d-27.407327213810923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457bd1017467aa1%3A0x478730ab1dcbd97f!2sC.%20los%20Girasoles%20%26%20C.%20Las%20Nutrias%2C%20Misiones!5e0!3m2!1ses-419!2sar!4v1771017355631!5m2!1ses-419!2sar" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe><span class="map-label">PZ TEAM · POSADAS, MISIONES</span></div></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="#top"><img src="media/pzlogo.png" alt=""><span>PZ <b>TEAM</b></span></a><p>Brazilian Jiu-Jitsu &amp; Defensa Personal<br>Posadas, Misiones</p><div class="footer-links"><a href="modalidades.html">Clases y horarios</a><a href="https://www.instagram.com/direct/t/17843444652053634/" target="_blank" rel="noopener">Instagram ↗</a><a href="https://wa.me/5493764699503?text=Hola%20quiero%20informaci%C3%B3n%20sobre%20las%20clases." target="_blank" rel="noopener">WhatsApp ↗</a></div><small>© 2026 PZ-Team · Todos los derechos reservados · Diseñado y desarrollado por Santiago Gimenez</small></footer>
+  <script src="script.js" defer></script>
 </body>
-
 </html>
